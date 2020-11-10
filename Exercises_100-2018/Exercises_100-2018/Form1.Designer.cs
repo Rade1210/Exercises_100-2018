@@ -1,6 +1,6 @@
 ﻿namespace Exercises_100_2018
 {
-    partial class Form1
+    partial class PullDataFromDatabase
     {
         /// <summary>
         /// Required designer variable.
@@ -39,14 +39,15 @@
             this.listboxPrintData.Size = new System.Drawing.Size(432, 212);
             this.listboxPrintData.TabIndex = 0;
             // 
-            // Form1
+            // PullDataFromDatabase
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(509, 359);
             this.Controls.Add(this.listboxPrintData);
-            this.Name = "Form1";
+            this.Name = "PullDataFromDatabase";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.PullDataFromDatabase_Load);
             this.ResumeLayout(false);
 
         }
